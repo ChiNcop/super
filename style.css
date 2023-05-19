@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#main {
+    padding: 150px 0;
+    overflow-x: hidden
+}
+
+.mySwiper {
+    height: 300px;
+}
+
+.mySwiper .swiper-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .mySwiper .swiper-slide:nth-child(1) {
+    background-image: url('./images/01.jpg');
+}
+
+.mySwiper .swiper-slide:nth-child(2) {
+    background-image: url('./images/02.jpg');
+}
+
+.mySwiper .swiper-slide:nth-child(3) {
+    background-image: url('./images/03.jpg');
+}
+
+.mySwiper .swiper-slide:nth-child(4) {
+    background-image: url('./images/04.jpg');
+}
+
+.mySwiper .swiper-slide:nth-child(5) {
+    background-image: url('./images/05.jpg');
+} */
+
+.mySwiper .swiper-button-prev:after,
+.mySwiper .swiper-button-next:after,
+.mySwiper .swiper-rtl:after {
+    color: red;
+    font-size: 30px;
+}
+
+/* pagination */
+.mySwiper .swiper-pagination-bullet {
+    background: white;
+    opacity: 1;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    background: red;
+}
+
+/* pagination */
+
+
+/* set pikachu instead of arrows */
+
+.mySwiper .swiper-button-next:after,
+.mySwiper .swiper-button-prev:after {
+    content: none;
+}
+
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    background-image: url('./images/pikachu.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mySwiper .swiper-button-next {
+    right: 30px;
+}
+
+.mySwiper .swiper-button-prev {
+    left: 30px;
+}
+
+
+
+
+/* set pikachu instead of arrows */
